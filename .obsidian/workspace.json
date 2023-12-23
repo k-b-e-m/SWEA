@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9e8f3031d5632397",
+        "id": "cbc990893bdf04bb",
         "type": "tabs",
         "children": [
           {
-            "id": "f6dbf78cfddbe131",
+            "id": "191a77021fcb27eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Systematic BlackBox Testing/Concepts - BlackBox Testing.md",
+                "file": "3. Variability Management/3-1-2 process.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Systematic BlackBox Testing/Concepts - BlackBox Testing.md",
+                "file": "3. Variability Management/3-1-2 process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Systematic BlackBox Testing/Concepts - BlackBox Testing.md",
+                "file": "3. Variability Management/3-1-2 process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Systematic BlackBox Testing/Concepts - BlackBox Testing.md"
+                "file": "3. Variability Management/3-1-2 process.md"
               }
             }
           }
@@ -146,14 +146,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f6dbf78cfddbe131",
+  "active": "191a77021fcb27eb",
   "lastOpenFiles": [
+    "3. Variability Management/Keywords - Variability management.md",
+    "3. Variability Management/Concepts - Variability management.md",
+    "Attachments/Compositinal delgation-1.png",
+    "1. TDD/KeyWords  - TDD.md",
+    "1. TDD/Concepts - TDD.md",
+    "Attachments/Pasted image 20231223142358.png",
+    "Attachments/Polymorphic proposal example-1.png",
+    "3. Variability Management/variabilityManagement - pensum.pdf",
+    "3. Variability Management/3-1-2 process.md",
+    "Untitled",
+    "Resources for helping/umlArrowsGuide.gif",
+    "Resources for helping",
+    "2. Systematic BlackBox Testing/Concepts - BlackBox Testing.md",
     "2. Systematic BlackBox Testing/pensumTilSystematicTesting.pdf",
     "2. Systematic BlackBox Testing/Keywords - Blackbox Testing.md",
-    "2. Systematic BlackBox Testing/Concepts - BlackBox Testing.md",
     "Untitled.md",
-    "1. TDD/Concepts - TDD.md",
-    "1. TDD/KeyWords  - TDD.md",
     "README.md",
     "1. TDD/Pensum til TDD - chapter 5.pdf",
     "Attachments/Triangulation concept image-1.png",
@@ -163,10 +173,6 @@
     "1. TDD/Untitled",
     "9. Distribution and Broker.",
     "8. Clean Code and Refactoring",
-    "7. Frameworks",
-    "6. Compositional Design",
-    "5. Design Patterns",
-    "4. Test Doubles and unit-Integration testing",
-    "3. Variability Management"
+    "7. Frameworks"
   ]
 }
