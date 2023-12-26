@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cbc990893bdf04bb",
+        "id": "8e6b38fddde04d7b",
         "type": "tabs",
         "children": [
           {
-            "id": "191a77021fcb27eb",
+            "id": "6569d5e3ba4dfbaf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. Variability Management/3-1-2 process.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Variability Management/3-1-2 process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Variability Management/3-1-2 process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "3. Variability Management/3-1-2 process.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "191a77021fcb27eb",
+  "active": "6569d5e3ba4dfbaf",
   "lastOpenFiles": [
+    "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
+    "4. Test Doubles and unit-Integration testing/Concepts - Test Doubles and Unit and Integration tests.md",
+    "Attachments/Mock object-1.png",
+    "3. Variability Management/3-1-2 process.md",
     "Attachments/Something something-1.png",
     "3. Variability Management/3-1-2-process.pdf",
     "3. Variability Management/Keywords - Variability management.md",
@@ -158,7 +154,6 @@
     "Attachments/Pasted image 20231223142358.png",
     "Attachments/Polymorphic proposal example-1.png",
     "3. Variability Management/variabilityManagement - pensum.pdf",
-    "3. Variability Management/3-1-2 process.md",
     "Untitled",
     "Resources for helping/umlArrowsGuide.gif",
     "Resources for helping",
