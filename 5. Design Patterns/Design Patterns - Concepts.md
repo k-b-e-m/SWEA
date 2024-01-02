@@ -89,6 +89,27 @@ Describe the responsibilities of the dynamically varying behavior in an interfac
 -  increased number of objects and interactions compared to a state machine based upon conditional statements in the context object.
 
 # Facade
+## Intent
+Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+
+## Problem
+The complexity of a subsystem should not be exposed to clients.
+
+## Solution
+Define an interface (the facade) that provides simple access to a complex subsystem. Clients that use the facade do not have to access the subsystem objects directly.
+
+## Structure
+![[Facade pattern-1.png]]
+## Roles
+Facade defines the simple interface to a subsystem. Clients only access the subsystem via the Facade.
+
+## Cost-Benefit
+- Benefits
+- it shields clients from subsystem objects. 
+- It promotes weak coupling between the client and the subsystem objects and thus lets you change these more easily without affecting the clients. 
+
+- Liabilities 
+- a Facade can bloat with a large set of methods in order for clients to access all aspects of the subsystem.
 
 # Decorator
 # Adapter

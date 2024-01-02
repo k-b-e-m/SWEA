@@ -29,26 +29,13 @@
             "id": "12546c8e9cb0f79c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5. Design Patterns/Design Patterns - Keywords.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1290a100b8b3ea4c",
-            "type": "leaf",
-            "state": {
               "type": "pdf",
               "state": {
-                "file": "5. Design Patterns/statePatternPensum.pdf"
+                "file": "5. Design Patterns/facadePatternPensum.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,11 +164,13 @@
   },
   "active": "47d7a17befa85059",
   "lastOpenFiles": [
-    "5. Design Patterns/statePatternPensum.pdf",
+    "5. Design Patterns/facadePatternPensum.pdf",
     "5. Design Patterns/Design Patterns - Concepts.md",
+    "Attachments/Facade pattern-1.png",
+    "5. Design Patterns/Design Patterns - Keywords.md",
+    "5. Design Patterns/statePatternPensum.pdf",
     "Attachments/State Pattern-1.png",
     "5. Design Patterns/abstractFactoryPensum.pdf",
-    "5. Design Patterns/Design Patterns - Keywords.md",
     "Attachments/Abstract Factory-1.png",
     "5. Design Patterns/strategyPatternPensum.pdf",
     "Attachments/Diagram.svg",
@@ -207,8 +196,6 @@
     "2. Systematic BlackBox Testing/pensumTilSystematicTesting.pdf",
     "2. Systematic BlackBox Testing/Keywords - Blackbox Testing.md",
     "Untitled.md",
-    "README.md",
-    "1. TDD/Pensum til TDD - chapter 5.pdf",
-    "Attachments/Triangulation concept image-1.png"
+    "README.md"
   ]
 }
