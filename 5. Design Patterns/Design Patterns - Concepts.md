@@ -31,11 +31,65 @@ The liabilities are:
 	Clients must be aware of strategies.
 
 # Abstract factory
+Creational Pattern
 ## Intent
+Provide an interface for creating families of related or dependent objects without specifying their concrete classes
 
+## Problem
+Families of related objects need to instantiated. Product variants need to be consistently configured.
+
+## Solution
+Define an abstraction whose responsibility is is to create families of objects. The client delegates object creation to instances of this abstraction.
+
+## Structure
+![[Abstract Factory-1.png]]
+
+## Roles
+- Abstract Factory
+	defines a common interface for object creation.
+- ProductA
+	Defines the interface of an object
+- ConcreteProductA1
+	 (Product A in variant 1) required by the client.
+- ConcreteFactory1
+	Is responsible for creating Products that belong to variant 1 family objects that are consistent with each other.
+## Cost-Benefit
+- Benefits
+- It lowers coupling between client and products as there are no new state- ments in the client to create high coupling. 
+- It makes exchanging product families easy by providing the client with different factories. It promotes consistency among products as all instantiation code is within the same class definition that is easy to overview.
+
+- Liabilities
+- supporting new kinds of products is difficult: every new product introduced requires all factories to be changed.
 
 # State pattern
+## Intent
+Allow an object to alter its behavior when its internal state changes.
+
+## Problem
+Your product’s behavior varies at run-time depending upon some internal state.
+
+## Solution
+Describe the responsibilities of the dynamically varying behavior in an interface and implement the concrete behavior associated with each unique state in an object, the state object, that implements this interface. The context object delegates to its current state object. When internal state changes occur, the current state object reference is changed to refer to the corresponding state object.
+
+## Structure
+![[State Pattern-1.png]]
+
+## Roles
+
+- State specifies the responsibilities and interface of the varying behavior associated with a state.
+- ConcreteState objects define the specific behavior associated with each specific state. 
+- The Context object delegates to its current state object. 
+- The state object reference is changed whenever the context changes its internal state.
+
+## Cost-benefit
+- Benefits
+- State specific behavior is localized as all behavior associated with a specific state is in a single class.
+- It makes state transitions explicit as assigning the current state object is the only way to change state. 
+- Liabilities
+-  increased number of objects and interactions compared to a state machine based upon conditional statements in the context object.
+
 # Facade
+
 # Decorator
 # Adapter
 # Builder

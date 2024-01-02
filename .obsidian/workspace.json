@@ -36,8 +36,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1290a100b8b3ea4c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "5. Design Patterns/statePatternPensum.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,11 +177,13 @@
   },
   "active": "47d7a17befa85059",
   "lastOpenFiles": [
-    "5. Design Patterns/abstractFactoryPensum.pdf",
     "5. Design Patterns/statePatternPensum.pdf",
-    "5. Design Patterns/strategyPatternPensum.pdf",
-    "5. Design Patterns/Design Patterns - Keywords.md",
     "5. Design Patterns/Design Patterns - Concepts.md",
+    "Attachments/State Pattern-1.png",
+    "5. Design Patterns/abstractFactoryPensum.pdf",
+    "5. Design Patterns/Design Patterns - Keywords.md",
+    "Attachments/Abstract Factory-1.png",
+    "5. Design Patterns/strategyPatternPensum.pdf",
     "Attachments/Diagram.svg",
     "Attachments/Diagram.svg.xml",
     "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
@@ -196,9 +209,6 @@
     "Untitled.md",
     "README.md",
     "1. TDD/Pensum til TDD - chapter 5.pdf",
-    "Attachments/Triangulation concept image-1.png",
-    "Attachments/Concepts-1.png",
-    "Pasted image 20231221102246.png",
-    "Attachments"
+    "Attachments/Triangulation concept image-1.png"
   ]
 }
