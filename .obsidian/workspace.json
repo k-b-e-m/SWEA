@@ -4,15 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "8e6b38fddde04d7b",
+        "id": "60b30560eb14063b",
         "type": "tabs",
         "children": [
           {
-            "id": "6569d5e3ba4dfbaf",
+            "id": "47d7a17befa85059",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5. Design Patterns/Design Patterns - Concepts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "665eaaf60fd4bb8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12546c8e9cb0f79c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5. Design Patterns/Design Patterns - Keywords.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5. Design Patterns/Design Patterns - Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "5. Design Patterns/Design Patterns - Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5. Design Patterns/Design Patterns - Concepts.md"
+              }
             }
           }
         ]
@@ -138,8 +164,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6569d5e3ba4dfbaf",
+  "active": "47d7a17befa85059",
   "lastOpenFiles": [
+    "5. Design Patterns/abstractFactoryPensum.pdf",
+    "5. Design Patterns/statePatternPensum.pdf",
+    "5. Design Patterns/strategyPatternPensum.pdf",
+    "5. Design Patterns/Design Patterns - Keywords.md",
+    "5. Design Patterns/Design Patterns - Concepts.md",
+    "Attachments/Diagram.svg",
+    "Attachments/Diagram.svg.xml",
     "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
     "4. Test Doubles and unit-Integration testing/Concepts - Test Doubles and Unit and Integration tests.md",
     "Attachments/Mock object-1.png",
@@ -166,9 +199,6 @@
     "Attachments/Triangulation concept image-1.png",
     "Attachments/Concepts-1.png",
     "Pasted image 20231221102246.png",
-    "Attachments",
-    "1. TDD/Untitled",
-    "9. Distribution and Broker.",
-    "8. Clean Code and Refactoring"
+    "Attachments"
   ]
 }
