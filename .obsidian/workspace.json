@@ -31,7 +31,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "5. Design Patterns/commandPatternPensum.pdf"
+                "file": "5. Design Patterns/model-view-controllerPatternPensum.pdf"
               }
             }
           }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5. Design Patterns/Design Patterns - Concepts.md",
+                "file": "5. Design Patterns/model-view-controllerPatternPensum.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5. Design Patterns/Design Patterns - Concepts.md",
+                "file": "5. Design Patterns/model-view-controllerPatternPensum.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5. Design Patterns/Design Patterns - Concepts.md"
+                "file": "5. Design Patterns/model-view-controllerPatternPensum.pdf"
               }
             }
           }
@@ -162,10 +162,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "47d7a17befa85059",
+  "active": "12546c8e9cb0f79c",
   "lastOpenFiles": [
-    "5. Design Patterns/commandPatternPensum.pdf",
     "5. Design Patterns/Design Patterns - Concepts.md",
+    "5. Design Patterns/model-view-controllerPatternPensum.pdf",
+    "Attachments/model-view-controller pattern-1.png",
+    "5. Design Patterns/observerPatternPensum.pdf",
+    "5. Design Patterns/nullObjectPattern.pdf",
+    "Attachments/nullobject pattern-1.png",
+    "5. Design Patterns/compositePatternPensum.pdf",
+    "Attachments/Composite pattern-1.png",
+    "5. Design Patterns/proxyPatternPensum.pdf",
+    "Attachments/Proxy Pattern-1.png",
+    "5. Design Patterns/iteratorPatternPensum.pdf",
+    "Attachments/Iterator pattern-1.png",
+    "5. Design Patterns/commandPatternPensum.pdf",
     "Attachments/Command pattern-1.png",
     "5. Design Patterns/builderPatternPensum.pdf",
     "Attachments/Builder pattern-1.png",
@@ -173,22 +184,11 @@
     "Attachments/adapter pattern-1.png",
     "5. Design Patterns/decoratorPatternPensum.pdf",
     "Attachments/Decorator design pattern-1.png",
-    "5. Design Patterns/facadePatternPensum.pdf",
     "Attachments/Facade pattern-1.png",
     "5. Design Patterns/Design Patterns - Keywords.md",
-    "5. Design Patterns/statePatternPensum.pdf",
-    "Attachments/State Pattern-1.png",
-    "5. Design Patterns/abstractFactoryPensum.pdf",
-    "Attachments/Abstract Factory-1.png",
-    "5. Design Patterns/strategyPatternPensum.pdf",
-    "Attachments/Diagram.svg",
-    "Attachments/Diagram.svg.xml",
     "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
     "4. Test Doubles and unit-Integration testing/Concepts - Test Doubles and Unit and Integration tests.md",
-    "Attachments/Mock object-1.png",
     "3. Variability Management/3-1-2 process.md",
-    "Attachments/Something something-1.png",
-    "3. Variability Management/3-1-2-process.pdf",
     "3. Variability Management/Keywords - Variability management.md",
     "3. Variability Management/Concepts - Variability management.md",
     "1. TDD/KeyWords  - TDD.md",
