@@ -4,16 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "60b30560eb14063b",
+        "id": "ca84ad2fb3344375",
         "type": "tabs",
+        "dimension": 29.058347775852113,
         "children": [
           {
-            "id": "47d7a17befa85059",
+            "id": "3b88c037da63db30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5. Design Patterns/Design Patterns - Concepts.md",
+                "file": "6. Compositional Design/Compositional design - Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +23,36 @@
         ]
       },
       {
-        "id": "665eaaf60fd4bb8a",
+        "id": "c605873a6d0c6b84",
         "type": "tabs",
+        "dimension": 50.0577700751011,
         "children": [
           {
-            "id": "12546c8e9cb0f79c",
+            "id": "b01a7c7b8fc6434b",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "5. Design Patterns/model-view-controllerPatternPensum.pdf"
+                "file": "6. Compositional Design/rolesAndResponsibilitiesPensum.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "070b279127a31fad",
+        "type": "tabs",
+        "dimension": 20.88388214904679,
+        "children": [
+          {
+            "id": "098b3a205191a0e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6. Compositional Design/Compositional Designs - Keywords.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -85,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1955147758b909a0",
@@ -101,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5. Design Patterns/model-view-controllerPatternPensum.pdf",
+                "file": "6. Compositional Design/Compositional Designs - Keywords.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5. Design Patterns/model-view-controllerPatternPensum.pdf",
+                "file": "6. Compositional Design/Compositional Designs - Keywords.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5. Design Patterns/model-view-controllerPatternPensum.pdf"
+                "file": "6. Compositional Design/Compositional Designs - Keywords.md"
               }
             }
           }
@@ -162,8 +184,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "12546c8e9cb0f79c",
+  "active": "098b3a205191a0e9",
   "lastOpenFiles": [
+    "6. Compositional Design/rolesAndResponsibilitiesPensum.pdf",
+    "6. Compositional Design/Compositional Designs - Keywords.md",
+    "6. Compositional Design/Compositional design - Concepts.md",
+    "Attachments/Example of UML Sequence Diagram-1.png",
+    "Attachments/CRC paystation-1.png",
+    "3. Variability Management/Keywords - Variability management.md",
+    "3. Variability Management/variabilityManagement - pensum.pdf",
+    "3. Variability Management/Concepts - Variability management.md",
+    "3. Variability Management/3-1-2-process.pdf",
+    "3. Variability Management/3-1-2 process.md",
     "5. Design Patterns/Design Patterns - Concepts.md",
     "5. Design Patterns/model-view-controllerPatternPensum.pdf",
     "Attachments/model-view-controller pattern-1.png",
@@ -178,19 +210,11 @@
     "Attachments/Iterator pattern-1.png",
     "5. Design Patterns/commandPatternPensum.pdf",
     "Attachments/Command pattern-1.png",
-    "5. Design Patterns/builderPatternPensum.pdf",
     "Attachments/Builder pattern-1.png",
-    "5. Design Patterns/adapterPatternPensum.pdf",
     "Attachments/adapter pattern-1.png",
-    "5. Design Patterns/decoratorPatternPensum.pdf",
-    "Attachments/Decorator design pattern-1.png",
-    "Attachments/Facade pattern-1.png",
     "5. Design Patterns/Design Patterns - Keywords.md",
     "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
     "4. Test Doubles and unit-Integration testing/Concepts - Test Doubles and Unit and Integration tests.md",
-    "3. Variability Management/3-1-2 process.md",
-    "3. Variability Management/Keywords - Variability management.md",
-    "3. Variability Management/Concepts - Variability management.md",
     "1. TDD/KeyWords  - TDD.md",
     "1. TDD/Concepts - TDD.md",
     "2. Systematic BlackBox Testing/Concepts - BlackBox Testing.md",

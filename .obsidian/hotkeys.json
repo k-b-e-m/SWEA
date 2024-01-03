@@ -1,16 +1,27 @@
 {
+  "editor:focus-left": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
   "editor:focus-right": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "`"
+      "key": "L"
     }
   ],
-  "editor:focus-left": [
+  "editor:open-search-replace": [],
+  "editor:toggle-checklist-status": [],
+  "editor:toggle-fold": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "J"
     }
