@@ -15,4 +15,4 @@ To use them one should download them and open them with Obsidian as a vault.
 
 
 
-**Full ownership of these notes belongs to K-B-E-M on github. These is written purely due to fear of plagiarism.**
+**Full ownership of these notes belongs to K-B-E-M on github. This is written purely due to fear of plagiarism.**
