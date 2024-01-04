@@ -33,7 +33,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "6. Compositional Design/rolesAndResponsibilitiesPensum.pdf"
+                "file": "6. Compositional Design/multiDimensionalVariability.pdf"
               }
             }
           }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6. Compositional Design/Compositional Designs - Keywords.md",
+                "file": "6. Compositional Design/multiDimensionalVariability.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6. Compositional Design/Compositional Designs - Keywords.md",
+                "file": "6. Compositional Design/multiDimensionalVariability.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6. Compositional Design/Compositional Designs - Keywords.md"
+                "file": "6. Compositional Design/multiDimensionalVariability.pdf"
               }
             }
           }
@@ -184,11 +184,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "098b3a205191a0e9",
+  "active": "b01a7c7b8fc6434b",
   "lastOpenFiles": [
+    "6. Compositional Design/Compositional design - Concepts.md",
+    "6. Compositional Design/multiDimensionalVariability.pdf",
+    "Attachments/Variability Space-1.png",
     "6. Compositional Design/rolesAndResponsibilitiesPensum.pdf",
     "6. Compositional Design/Compositional Designs - Keywords.md",
-    "6. Compositional Design/Compositional design - Concepts.md",
     "Attachments/Example of UML Sequence Diagram-1.png",
     "Attachments/CRC paystation-1.png",
     "3. Variability Management/Keywords - Variability management.md",
@@ -208,10 +210,8 @@
     "Attachments/Proxy Pattern-1.png",
     "5. Design Patterns/iteratorPatternPensum.pdf",
     "Attachments/Iterator pattern-1.png",
-    "5. Design Patterns/commandPatternPensum.pdf",
     "Attachments/Command pattern-1.png",
     "Attachments/Builder pattern-1.png",
-    "Attachments/adapter pattern-1.png",
     "5. Design Patterns/Design Patterns - Keywords.md",
     "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
     "4. Test Doubles and unit-Integration testing/Concepts - Test Doubles and Unit and Integration tests.md",

@@ -58,3 +58,19 @@ This is typiccally shown with UML sequence diagrams.
 **UML Sequence Diagram example**
 
 
+
+
+# Multi-Dimensional Variance
+When talking about Multi-Dimensional Variance, we are talking about a software that now have multiple independent aspects of the program. 
+For example the Pay Stations have variability in the time display, the rate policy and the receipt type.  Since all these aspects are independent, we can mix and match them as we like. We can show them in a graph:
+![[Variability Space-1.png]]
+
+## The Polymorphic Proposal
+When using the Polymorphic approach, one ends up having multiple classes representing the different variations. For example having the Alphatown, Betatown and Gammatown. Each of these variations are represented, with the polymorphic approach in mind, as classes and subclasses. However when we add a fourth variation that mixes a ratestrategy, receipt strategy and display strategy, where each of these are already implemented in previous classes, we struggle to find which class it should be a subclass of. One might pick the one that has the most algorithms in common. However, this results in having to do some code duplication. It also results in high cohesion. Furthermore the hierarchy will most likely symbolise the history of the program, which classes came first, instead of having the best design. 
+
+**Key point**
+*As Java and C# only support single implementation inheritance and the inheritance mechanism therefore is one-dimensional, it cannot accommodate multi-dimensional variations without a combinatorial explosion of subclasses.*
+
+## The Compositional Proposal
+With the compositional proposal, it does not result in an explosion of subclasses.  This is because each time the developer meets a variation, it is delegated to a new interface/class. This makes it such that all variations is can be made by just "putting" the right strategies into the "main" program. For examplw with the paystation. Creating a new variant of a paystation is just giving it a desired ratestrategy,  receipt strategy and display strategy.
+
