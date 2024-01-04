@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ca84ad2fb3344375",
+        "id": "b7f75ce89b00d1a0",
         "type": "tabs",
-        "dimension": 29.058347775852113,
+        "dimension": 20.47949162333911,
         "children": [
           {
-            "id": "3b88c037da63db30",
+            "id": "55387d7a2b204ef9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6. Compositional Design/Compositional design - Concepts.md",
+                "file": "7. Frameworks/Frameworm - Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,32 +25,32 @@
       {
         "id": "c605873a6d0c6b84",
         "type": "tabs",
-        "dimension": 50.0577700751011,
+        "dimension": 69.6995956094743,
         "children": [
           {
-            "id": "b01a7c7b8fc6434b",
+            "id": "5b56be66f41fb2c1",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "6. Compositional Design/multiDimensionalVariability.pdf"
+                "file": "7. Frameworks/frameWorkTheoryPensum.pdf"
               }
             }
           }
         ]
       },
       {
-        "id": "070b279127a31fad",
+        "id": "fd0541030dc8d0b0",
         "type": "tabs",
-        "dimension": 20.88388214904679,
+        "dimension": 9.820912767186597,
         "children": [
           {
-            "id": "098b3a205191a0e9",
+            "id": "b01a7c7b8fc6434b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6. Compositional Design/Compositional Designs - Keywords.md",
+                "file": "7. Frameworks/Frameworks - Keywords.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6. Compositional Design/multiDimensionalVariability.pdf",
+                "file": "7. Frameworks/Frameworm - Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6. Compositional Design/multiDimensionalVariability.pdf",
+                "file": "7. Frameworks/Frameworm - Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6. Compositional Design/multiDimensionalVariability.pdf"
+                "file": "7. Frameworks/Frameworm - Concepts.md"
               }
             }
           }
@@ -184,10 +184,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b01a7c7b8fc6434b",
+  "active": "55387d7a2b204ef9",
   "lastOpenFiles": [
-    "6. Compositional Design/Compositional design - Concepts.md",
+    "7. Frameworks/frameWorkTheoryPensum.pdf",
+    "7. Frameworks/Frameworks - Keywords.md",
+    "7. Frameworks/Frameworm - Concepts.md",
+    "Attachments/Framework composition-1.png",
+    "README.md",
     "6. Compositional Design/multiDimensionalVariability.pdf",
+    "6. Compositional Design/Compositional design - Concepts.md",
     "Attachments/Variability Space-1.png",
     "6. Compositional Design/rolesAndResponsibilitiesPensum.pdf",
     "6. Compositional Design/Compositional Designs - Keywords.md",
@@ -208,10 +213,8 @@
     "Attachments/Composite pattern-1.png",
     "5. Design Patterns/proxyPatternPensum.pdf",
     "Attachments/Proxy Pattern-1.png",
-    "5. Design Patterns/iteratorPatternPensum.pdf",
     "Attachments/Iterator pattern-1.png",
     "Attachments/Command pattern-1.png",
-    "Attachments/Builder pattern-1.png",
     "5. Design Patterns/Design Patterns - Keywords.md",
     "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
     "4. Test Doubles and unit-Integration testing/Concepts - Test Doubles and Unit and Integration tests.md",
@@ -219,7 +222,6 @@
     "1. TDD/Concepts - TDD.md",
     "2. Systematic BlackBox Testing/Concepts - BlackBox Testing.md",
     "2. Systematic BlackBox Testing/Keywords - Blackbox Testing.md",
-    "Untitled.md",
-    "README.md"
+    "Untitled.md"
   ]
 }
