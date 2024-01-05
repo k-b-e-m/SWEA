@@ -4,53 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "b7f75ce89b00d1a0",
+        "id": "06db4ea099f03030",
         "type": "tabs",
-        "dimension": 20.47949162333911,
+        "dimension": 27.007510109763146,
         "children": [
           {
-            "id": "55387d7a2b204ef9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. Frameworks/Frameworm - Concepts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "c605873a6d0c6b84",
-        "type": "tabs",
-        "dimension": 69.6995956094743,
-        "children": [
-          {
-            "id": "5b56be66f41fb2c1",
+            "id": "f99a8d107667092f",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "7. Frameworks/frameWorkTheoryPensum.pdf"
+                "file": "5. Design Patterns/observerPatternPensum.pdf"
               }
             }
           }
         ]
       },
       {
-        "id": "fd0541030dc8d0b0",
+        "id": "3127920671dde6ba",
         "type": "tabs",
-        "dimension": 9.820912767186597,
+        "dimension": 59.90756787983824,
         "children": [
           {
-            "id": "b01a7c7b8fc6434b",
+            "id": "987d6dcb15954907",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "8. Clean Code and Refactoring/cleanCodePensum.pdf.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c0915d45931ce1b8",
+        "type": "tabs",
+        "dimension": 13.084922010398614,
+        "children": [
+          {
+            "id": "9d1e0f737c4683e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7. Frameworks/Frameworks - Keywords.md",
+                "file": "8. Clean Code and Refactoring/Clean Code - Keywords.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1955147758b909a0",
@@ -123,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7. Frameworks/Frameworm - Concepts.md",
+                "file": "5. Design Patterns/observerPatternPensum.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "7. Frameworks/Frameworm - Concepts.md",
+                "file": "5. Design Patterns/observerPatternPensum.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7. Frameworks/Frameworm - Concepts.md"
+                "file": "5. Design Patterns/observerPatternPensum.pdf"
               }
             }
           }
@@ -184,11 +181,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "55387d7a2b204ef9",
+  "active": "f99a8d107667092f",
   "lastOpenFiles": [
-    "7. Frameworks/frameWorkTheoryPensum.pdf",
+    "5. Design Patterns/statePatternPensum.pdf",
+    "8. Clean Code and Refactoring/Clean Code - Concepts.md",
+    "8. Clean Code and Refactoring/cleanCodePensum.pdf.pdf",
+    "8. Clean Code and Refactoring/Clean Code - Keywords.md",
+    "8. Clean Code and Refactoring/cleanCodePensum.pdf",
+    "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
+    "4. Test Doubles and unit-Integration testing/Concepts - Test Doubles and Unit and Integration tests.md",
+    "8. Clean Code and Refactoring/cleancodeHenrikPensum.pdf",
+    "8. Clean Code and Refactoring/couplingAndCohesionPensum.pdf",
+    "8. Clean Code and Refactoring/flexibilityAndMintainabilityPensum.pdf",
     "7. Frameworks/Frameworks - Keywords.md",
     "7. Frameworks/Frameworm - Concepts.md",
+    "7. Frameworks/frameWorkTheoryPensum.pdf",
     "Attachments/Framework composition-1.png",
     "README.md",
     "6. Compositional Design/multiDimensionalVariability.pdf",
@@ -204,20 +211,13 @@
     "3. Variability Management/3-1-2-process.pdf",
     "3. Variability Management/3-1-2 process.md",
     "5. Design Patterns/Design Patterns - Concepts.md",
-    "5. Design Patterns/model-view-controllerPatternPensum.pdf",
     "Attachments/model-view-controller pattern-1.png",
-    "5. Design Patterns/observerPatternPensum.pdf",
-    "5. Design Patterns/nullObjectPattern.pdf",
     "Attachments/nullobject pattern-1.png",
-    "5. Design Patterns/compositePatternPensum.pdf",
     "Attachments/Composite pattern-1.png",
-    "5. Design Patterns/proxyPatternPensum.pdf",
     "Attachments/Proxy Pattern-1.png",
     "Attachments/Iterator pattern-1.png",
     "Attachments/Command pattern-1.png",
     "5. Design Patterns/Design Patterns - Keywords.md",
-    "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
-    "4. Test Doubles and unit-Integration testing/Concepts - Test Doubles and Unit and Integration tests.md",
     "1. TDD/KeyWords  - TDD.md",
     "1. TDD/Concepts - TDD.md",
     "2. Systematic BlackBox Testing/Concepts - BlackBox Testing.md",
