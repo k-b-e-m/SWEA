@@ -6,7 +6,7 @@
       {
         "id": "06db4ea099f03030",
         "type": "tabs",
-        "dimension": 27.007510109763146,
+        "dimension": 67.36311239193084,
         "children": [
           {
             "id": "f99a8d107667092f",
@@ -14,24 +14,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "5. Design Patterns/observerPatternPensum.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "3127920671dde6ba",
-        "type": "tabs",
-        "dimension": 59.90756787983824,
-        "children": [
-          {
-            "id": "987d6dcb15954907",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "8. Clean Code and Refactoring/cleanCodePensum.pdf.pdf"
+                "file": "8. Clean Code and Refactoring/cleancodeHenrikPensum.pdf"
               }
             }
           }
@@ -40,7 +23,7 @@
       {
         "id": "c0915d45931ce1b8",
         "type": "tabs",
-        "dimension": 13.084922010398614,
+        "dimension": 32.63688760806916,
         "children": [
           {
             "id": "9d1e0f737c4683e1",
@@ -48,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8. Clean Code and Refactoring/Clean Code - Keywords.md",
+                "file": "8. Clean Code and Refactoring/Clean Code - Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 673.5026054382324
   },
   "right": {
     "id": "1955147758b909a0",
@@ -120,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5. Design Patterns/observerPatternPensum.pdf",
+                "file": "8. Clean Code and Refactoring/Clean Code - Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5. Design Patterns/observerPatternPensum.pdf",
+                "file": "8. Clean Code and Refactoring/Clean Code - Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5. Design Patterns/observerPatternPensum.pdf"
+                "file": "8. Clean Code and Refactoring/Clean Code - Concepts.md"
               }
             }
           }
@@ -181,18 +164,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f99a8d107667092f",
+  "active": "9d1e0f737c4683e1",
   "lastOpenFiles": [
-    "5. Design Patterns/statePatternPensum.pdf",
+    "8. Clean Code and Refactoring/cleancodeHenrikPensum.pdf",
     "8. Clean Code and Refactoring/Clean Code - Concepts.md",
-    "8. Clean Code and Refactoring/cleanCodePensum.pdf.pdf",
     "8. Clean Code and Refactoring/Clean Code - Keywords.md",
+    "8. Clean Code and Refactoring/flexibilityAndMintainabilityPensum.pdf",
+    "8. Clean Code and Refactoring/couplingAndCohesionPensum.pdf",
+    "8. Clean Code and Refactoring/cleanCodePensum.pdf.pdf",
+    "5. Design Patterns/observerPatternPensum.pdf",
+    "5. Design Patterns/statePatternPensum.pdf",
     "8. Clean Code and Refactoring/cleanCodePensum.pdf",
     "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
     "4. Test Doubles and unit-Integration testing/Concepts - Test Doubles and Unit and Integration tests.md",
-    "8. Clean Code and Refactoring/cleancodeHenrikPensum.pdf",
-    "8. Clean Code and Refactoring/couplingAndCohesionPensum.pdf",
-    "8. Clean Code and Refactoring/flexibilityAndMintainabilityPensum.pdf",
     "7. Frameworks/Frameworks - Keywords.md",
     "7. Frameworks/Frameworm - Concepts.md",
     "7. Frameworks/frameWorkTheoryPensum.pdf",
@@ -206,9 +190,7 @@
     "Attachments/Example of UML Sequence Diagram-1.png",
     "Attachments/CRC paystation-1.png",
     "3. Variability Management/Keywords - Variability management.md",
-    "3. Variability Management/variabilityManagement - pensum.pdf",
     "3. Variability Management/Concepts - Variability management.md",
-    "3. Variability Management/3-1-2-process.pdf",
     "3. Variability Management/3-1-2 process.md",
     "5. Design Patterns/Design Patterns - Concepts.md",
     "Attachments/model-view-controller pattern-1.png",

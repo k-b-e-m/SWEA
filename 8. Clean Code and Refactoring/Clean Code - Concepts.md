@@ -1,5 +1,7 @@
+# Clean Code
+
 **Uncle Henrik's Clean Code Principles**
-# Do the same thing the same way
+## Do the same thing the same way
 This affects some different aspects of the code. The simple one is the order in which arguments is put.
 For example if having two Math functions, taking to integers as parameters. Where one is the n-root and the other is the pow. One "wrong" way of doing this could be:
 ``` Java
@@ -10,11 +12,11 @@ This is because when one person have been used to for example the root method, a
 
 Another aspect is closely related to Uncle Bob's "One level of abstraction principle". For example having a method where one part of the method access something within the data structure and the other part access it through an accessor method. This is a problem because of analazibilty, because one would need to know both ways and know that they are algorithmic equal, before they can analyze the actual code.
 
-# Name Boolean Expressions
+## Name Boolean Expressions
 Naming boolean expressions is smart instead of having to analyze a lot of NOT,AND and OR operations, if made smaller nameable expressions. One can easylier combine them and analyze them.
 Another thing here is to name them with "positive" names. So not having a failed, not and so on in the naming. Make the positive one and use the ! in the if statement if the "not" version is needed. This removes most situations where we have not not false, where we have to analyze and think a little more.
 
-# Bail out fast
+## Bail out fast
 When making while loops and if statements, it is possible to nest if statements. However this can confuse the reader, because they have to keep track of which boolean expressions is valid and the current "branch" of if statements. Therefore if possible to bail fast, meaning giving a result quick, give it quick instead of working through other code.
 Nested if statements is often the same thing as AND operators. A good example is for example a legal statement. Instead of writing:
 ``` Java
@@ -45,7 +47,7 @@ return unit;
 This way we bail fast instead of having to remember all current boolean expressions and conditions.
 
 
-# Arguments in Argument Lists
+## Arguments in Argument Lists
 Arguments of methods should not be named in the method names, And should instead be in the argument list. For example one shouldn't have:
 
 ```Java
@@ -59,10 +61,10 @@ public double addTax ( double amount , double taxrate ) ;
 ```
 
 
-# ___
+## ___
 **Uncle Bob**
 
-# Naming
+## Naming
 
 - Use Intention-Revealing Names
 		If a comment is needed to explain what the variable or class represents, its name is not Intention-revealing
@@ -107,4 +109,53 @@ public double addTax ( double amount , double taxrate ) ;
 - Don't Add Gratuitous Context
 		Dont add so much context that the names consist of mostly context, shorter names are typically better.
 
-# Functions
+## Functions
+- Small
+		Functions shoud be small. Usually smaller than 20 lines of code.
+- Blocks and Indenting
+		If, Else,While and other statements should be one line long.
+		A typical function should not do a lot of nesting and usually have one to two indenting..
+-  Do One Thing
+		A Function should only do one thing. A good way of knowing whether a function does more than one thing is this quote:
+		*So another way to know that a function is doing more than "one thing" is if you can extract another function from it with a name that is not merely a restatement of its implementation.*
+- Sections withing Functions
+		Functions that do one thing cannot reasonably be divided to sections.
+- One Level Of Abstraction per Function
+		A function should not use multiple levels of abstraction. Meaning that a function should not both use a helper function and be knee-deep in a data-structure to extract data.
+- Reading Code from Top to Bottom: The Stepdown Rule
+		Functions should be made in a way so one can read from to bottom. Meaning that it should also be able to tell what the functions does, in this order.
+-  Use Descriptive Names
+		Give functions name that descripe what they do. Longer descriptive names are better than short enigmas.
+		 *"You know you are working with clean code when each routine turns out to be pretty much what you expected."*
+- Function Arguments
+		The Fewer the arguments the better.  More arguments make more combinations to test and reduces readability.
+- Flag Arguments
+		Avoid flag arguments. If a function has a flag argument it does more than one thing. It does a if true and b if false.
+- Argument Objects
+		Sometimes if a lot of arguments is needed. Some arguments could be wrapped in a class together. For Example:
+``` Java
+Circle makeCircle(double x, double y, double radius);
+//Could be transformed to
+Circle makeCircle(Point center, double radius);
+```
+
+- Argument List
+		If a lot of arguments should be treated the same way, one can give them a list of arguments. However if they take more that on "type" of arguments they can still be monads, dyads and triads.
+- Have No Side Effects
+		A function should only do what the name of it says it will. A function named checkPassword, should not also start the session.
+-  Command Query Separation
+		Functions should either do something or answer someting. Either accesor- or mutatormethods.
+- Prefer Exceptions to returning Error Codes
+		Errors must be dealt with immediately we can handle exceptions later in the program.
+-  Extract Try/Catch blocks
+		Extract try catch blocks to other methods. Try catch looks ugly and makes code ugly.
+- Error handling is one thing
+		A try catch is one thing. Therefore a function should not have any other code if a try catch is in that method.
+- Don't Repeat yourself
+		Dont code duplicate.
+
+
+
+
+# Coupling and Cohesion
+# Flexibility and maintainability
