@@ -6,7 +6,26 @@
       {
         "id": "06db4ea099f03030",
         "type": "tabs",
-        "dimension": 67.36311239193084,
+        "dimension": 23.827629911280102,
+        "children": [
+          {
+            "id": "d40e6afa4ed72f93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9. Distribution and Broker./Distributions and Broker - Keywords.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7e377aa3d8897a2c",
+        "type": "tabs",
+        "dimension": 57.28770595690747,
         "children": [
           {
             "id": "f99a8d107667092f",
@@ -14,7 +33,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "8. Clean Code and Refactoring/cleancodeHenrikPensum.pdf"
+                "file": "8. Clean Code and Refactoring/couplingAndCohesionPensum.pdf"
               }
             }
           }
@@ -23,7 +42,7 @@
       {
         "id": "c0915d45931ce1b8",
         "type": "tabs",
-        "dimension": 32.63688760806916,
+        "dimension": 18.88466413181242,
         "children": [
           {
             "id": "9d1e0f737c4683e1",
@@ -31,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8. Clean Code and Refactoring/Clean Code - Concepts.md",
+                "file": "8. Clean Code and Refactoring/Clean Code - Keywords.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 673.5026054382324
+    "width": 562.5026054382324
   },
   "right": {
     "id": "1955147758b909a0",
@@ -103,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8. Clean Code and Refactoring/Clean Code - Concepts.md",
+                "file": "9. Distribution and Broker./Distributions and Broker - Keywords.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "8. Clean Code and Refactoring/Clean Code - Concepts.md",
+                "file": "9. Distribution and Broker./Distributions and Broker - Keywords.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8. Clean Code and Refactoring/Clean Code - Concepts.md"
+                "file": "9. Distribution and Broker./Distributions and Broker - Keywords.md"
               }
             }
           }
@@ -164,13 +183,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d1e0f737c4683e1",
+  "active": "d40e6afa4ed72f93",
   "lastOpenFiles": [
-    "8. Clean Code and Refactoring/cleancodeHenrikPensum.pdf",
+    "9. Distribution and Broker./Distributions and Broker - Concepts.md",
+    "9. Distribution and Broker./Distributions and Broker - Keywords.md",
     "8. Clean Code and Refactoring/Clean Code - Concepts.md",
     "8. Clean Code and Refactoring/Clean Code - Keywords.md",
-    "8. Clean Code and Refactoring/flexibilityAndMintainabilityPensum.pdf",
     "8. Clean Code and Refactoring/couplingAndCohesionPensum.pdf",
+    "8. Clean Code and Refactoring/flexibilityAndMintainabilityPensum.pdf",
+    "8. Clean Code and Refactoring/cleancodeHenrikPensum.pdf",
     "8. Clean Code and Refactoring/cleanCodePensum.pdf.pdf",
     "5. Design Patterns/observerPatternPensum.pdf",
     "5. Design Patterns/statePatternPensum.pdf",

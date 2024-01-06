@@ -157,5 +157,31 @@ Circle makeCircle(Point center, double radius);
 
 
 
-# Coupling and Cohesion
+
 # Flexibility and maintainability
+
+## Maintainability
+A software might be maintainable only in some aspects. For example a banking account system, might be maintainable in the way that it easily can adopt to a new country, tax and currency, but changing the graphical user-interface might not be easy.
+
+For maintainability there are some sub qualities
+
+### Analyzability
+The ability to understand software.
+If code are unreadable, then it is not easy to analyse and find defects and modify it.
+### Changeability
+Changeability is the ability to change the code. Magic constants is for example a bad aspect of changeability. Design patterns and framework theory uses a lot of changeability, since it is easy to put new "pieces" of new code into the software.
+
+### Stability
+Stability is how stable the software is. The more stable the more one is sure that the program still works after making changes to small parts of the software.
+
+### Testability
+Some code might not be easy to test if it for example heavily relies on real world things to happen. Therefore code like this could be adjusted to enable it to use test doubles.
+
+
+
+
+## Flexibility
+A code is flexible if it supports making new functionality by addition and not modification of the source code. The ability to support modifications.
+
+# Coupling and Cohesion
+[[Clean Code - Keywords]]
