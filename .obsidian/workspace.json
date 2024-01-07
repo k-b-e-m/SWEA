@@ -6,15 +6,15 @@
       {
         "id": "06db4ea099f03030",
         "type": "tabs",
-        "dimension": 23.827629911280102,
+        "dimension": 33.33333333333333,
         "children": [
           {
-            "id": "d40e6afa4ed72f93",
+            "id": "2f0951e0978a9e4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9. Distribution and Broker./Distributions and Broker - Keywords.md",
+                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,34 +23,34 @@
         ]
       },
       {
-        "id": "7e377aa3d8897a2c",
+        "id": "7916044f136d4e82",
         "type": "tabs",
-        "dimension": 57.28770595690747,
+        "dimension": 53.35868187579214,
         "children": [
           {
-            "id": "f99a8d107667092f",
+            "id": "d40e6afa4ed72f93",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "8. Clean Code and Refactoring/couplingAndCohesionPensum.pdf"
+                "file": "9. Distribution and Broker./distributedBasicConceptsPensum.pdf"
               }
             }
           }
         ]
       },
       {
-        "id": "c0915d45931ce1b8",
+        "id": "1e28b0ad728fcbef",
         "type": "tabs",
-        "dimension": 18.88466413181242,
+        "dimension": 13.307984790874524,
         "children": [
           {
-            "id": "9d1e0f737c4683e1",
+            "id": "7e3d71a0660c9fbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8. Clean Code and Refactoring/Clean Code - Keywords.md",
+                "file": "9. Distribution and Broker./Distributions and Broker - Keywords.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 562.5026054382324
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1955147758b909a0",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9. Distribution and Broker./Distributions and Broker - Keywords.md",
+                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9. Distribution and Broker./Distributions and Broker - Keywords.md",
+                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9. Distribution and Broker./Distributions and Broker - Keywords.md"
+                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md"
               }
             }
           }
@@ -183,10 +184,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d40e6afa4ed72f93",
+  "active": "2f0951e0978a9e4b",
   "lastOpenFiles": [
+    "9. Distribution and Broker./distributedBasicConceptsPensum.pdf",
     "9. Distribution and Broker./Distributions and Broker - Concepts.md",
     "9. Distribution and Broker./Distributions and Broker - Keywords.md",
+    "Attachments/Example of JSON-1.png",
+    "Attachments/Example of XML-1.png",
+    "Attachments/Pasted image 20240107142112.png",
+    "Attachments/Reply request protocol-1.png",
+    "9. Distribution and Broker./basicConceptsOfDistributedSysPensum",
     "8. Clean Code and Refactoring/Clean Code - Concepts.md",
     "8. Clean Code and Refactoring/Clean Code - Keywords.md",
     "8. Clean Code and Refactoring/couplingAndCohesionPensum.pdf",
@@ -203,10 +210,8 @@
     "7. Frameworks/frameWorkTheoryPensum.pdf",
     "Attachments/Framework composition-1.png",
     "README.md",
-    "6. Compositional Design/multiDimensionalVariability.pdf",
     "6. Compositional Design/Compositional design - Concepts.md",
     "Attachments/Variability Space-1.png",
-    "6. Compositional Design/rolesAndResponsibilitiesPensum.pdf",
     "6. Compositional Design/Compositional Designs - Keywords.md",
     "Attachments/Example of UML Sequence Diagram-1.png",
     "Attachments/CRC paystation-1.png",
@@ -216,10 +221,6 @@
     "5. Design Patterns/Design Patterns - Concepts.md",
     "Attachments/model-view-controller pattern-1.png",
     "Attachments/nullobject pattern-1.png",
-    "Attachments/Composite pattern-1.png",
-    "Attachments/Proxy Pattern-1.png",
-    "Attachments/Iterator pattern-1.png",
-    "Attachments/Command pattern-1.png",
     "5. Design Patterns/Design Patterns - Keywords.md",
     "1. TDD/KeyWords  - TDD.md",
     "1. TDD/Concepts - TDD.md",
