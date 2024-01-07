@@ -33,7 +33,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "9. Distribution and Broker./distributedBasicConceptsPensum.pdf"
+                "file": "9. Distribution and Broker./brokerPartOnePensum.pdf"
               }
             }
           }
@@ -186,9 +186,15 @@
   },
   "active": "2f0951e0978a9e4b",
   "lastOpenFiles": [
-    "9. Distribution and Broker./distributedBasicConceptsPensum.pdf",
+    "9. Distribution and Broker./implementationOfBrokerPensum.pdf",
+    "Attachments/Architecture Pattern in short-1.png",
+    "9. Distribution and Broker./brokerPartOnePensum.pdf",
     "9. Distribution and Broker./Distributions and Broker - Concepts.md",
     "9. Distribution and Broker./Distributions and Broker - Keywords.md",
+    "Attachments/Broker server side dynamics-1.png",
+    "Attachments/Broker Client side dynamics-1.png",
+    "Attachments/Broker Structure-1.png",
+    "9. Distribution and Broker./distributedBasicConceptsPensum.pdf",
     "Attachments/Example of JSON-1.png",
     "Attachments/Example of XML-1.png",
     "Attachments/Pasted image 20240107142112.png",
@@ -207,20 +213,15 @@
     "4. Test Doubles and unit-Integration testing/Concepts - Test Doubles and Unit and Integration tests.md",
     "7. Frameworks/Frameworks - Keywords.md",
     "7. Frameworks/Frameworm - Concepts.md",
-    "7. Frameworks/frameWorkTheoryPensum.pdf",
     "Attachments/Framework composition-1.png",
     "README.md",
     "6. Compositional Design/Compositional design - Concepts.md",
     "Attachments/Variability Space-1.png",
     "6. Compositional Design/Compositional Designs - Keywords.md",
-    "Attachments/Example of UML Sequence Diagram-1.png",
-    "Attachments/CRC paystation-1.png",
     "3. Variability Management/Keywords - Variability management.md",
     "3. Variability Management/Concepts - Variability management.md",
     "3. Variability Management/3-1-2 process.md",
     "5. Design Patterns/Design Patterns - Concepts.md",
-    "Attachments/model-view-controller pattern-1.png",
-    "Attachments/nullobject pattern-1.png",
     "5. Design Patterns/Design Patterns - Keywords.md",
     "1. TDD/KeyWords  - TDD.md",
     "1. TDD/Concepts - TDD.md",
