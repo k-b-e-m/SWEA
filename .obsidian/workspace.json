@@ -33,7 +33,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "9. Distribution and Broker./brokerPartOnePensum.pdf"
+                "file": "9. Distribution and Broker./implementationOfBrokerPensum.pdf"
               }
             }
           }
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1955147758b909a0",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md",
+                "file": "9. Distribution and Broker./implementationOfBrokerPensum.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md",
+                "file": "9. Distribution and Broker./implementationOfBrokerPensum.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md"
+                "file": "9. Distribution and Broker./implementationOfBrokerPensum.pdf"
               }
             }
           }
@@ -184,21 +183,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f0951e0978a9e4b",
+  "active": "d40e6afa4ed72f93",
   "lastOpenFiles": [
-    "9. Distribution and Broker./implementationOfBrokerPensum.pdf",
-    "Attachments/Architecture Pattern in short-1.png",
-    "9. Distribution and Broker./brokerPartOnePensum.pdf",
     "9. Distribution and Broker./Distributions and Broker - Concepts.md",
+    "9. Distribution and Broker./implementationOfBrokerPensum.pdf",
+    "Attachments/4.7 using Henrik Broker Library-1.png",
+    "Attachments/ServerRequestHandler code-1.png",
+    "Attachments/Example of a requestor-1.png",
+    "Attachments/Client proxy code-1.png",
+    "9. Distribution and Broker./brokerPartOnePensum.pdf",
+    "9. Distribution and Broker./distributedBasicConceptsPensum.pdf",
+    "Attachments/Architecture Pattern in short-1.png",
     "9. Distribution and Broker./Distributions and Broker - Keywords.md",
     "Attachments/Broker server side dynamics-1.png",
     "Attachments/Broker Client side dynamics-1.png",
     "Attachments/Broker Structure-1.png",
-    "9. Distribution and Broker./distributedBasicConceptsPensum.pdf",
     "Attachments/Example of JSON-1.png",
     "Attachments/Example of XML-1.png",
-    "Attachments/Pasted image 20240107142112.png",
-    "Attachments/Reply request protocol-1.png",
     "9. Distribution and Broker./basicConceptsOfDistributedSysPensum",
     "8. Clean Code and Refactoring/Clean Code - Concepts.md",
     "8. Clean Code and Refactoring/Clean Code - Keywords.md",
@@ -208,15 +209,12 @@
     "8. Clean Code and Refactoring/cleanCodePensum.pdf.pdf",
     "5. Design Patterns/observerPatternPensum.pdf",
     "5. Design Patterns/statePatternPensum.pdf",
-    "8. Clean Code and Refactoring/cleanCodePensum.pdf",
     "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
     "4. Test Doubles and unit-Integration testing/Concepts - Test Doubles and Unit and Integration tests.md",
     "7. Frameworks/Frameworks - Keywords.md",
     "7. Frameworks/Frameworm - Concepts.md",
-    "Attachments/Framework composition-1.png",
     "README.md",
     "6. Compositional Design/Compositional design - Concepts.md",
-    "Attachments/Variability Space-1.png",
     "6. Compositional Design/Compositional Designs - Keywords.md",
     "3. Variability Management/Keywords - Variability management.md",
     "3. Variability Management/Concepts - Variability management.md",

@@ -104,3 +104,96 @@ Distributed systems consists of objects that are located on different computers.
 	*Always include version identity in the marshalling format*
 Meaning always let older versions of Marshall still work for the server.
 
+
+# Implementation of the Broker
+
+## Domain Layer
+ At the domain layer we need a servant and ClientProxy  both implementing the the interface which is to be distributed.
+## Client Side
+
+### ClientProxy
+
+#### Example of ClientProxy Code
+![[Client proxy code-1.png]]
+ The client and the server will communicate on which metod to invoke using a unique string froe each operation. Here we see that there are some predefined "public static final String ..." in the class called OperationNames.
+
+### Requestor
+The requestor's responsibility is to marshall the method call, delegate the client request handler to send/recieve and demarshall the response.
+ Here we can use different requester for the hotStone project we used:
+ a JSON requestor.
+![[Example of a requestor-1.png]]
+
+Here wer also see that we have the **Request- and ReplyObject** These objects are just to package all the information into one class. These are for convenience and only consists of accessor methods and stores information. They make the Gson marsshalling library easier.
+
+### ClientRequestHandler
+
+## Server Side
+### ServerRequestHandler
+
+![[ServerRequestHandler code-1.png]]
+
+### Invoker
+
+Example code of the GameInvoker from the hotStone Project:
+``` Java
+@Override  
+public String handleRequest(String request) {  
+    RequestObject requestObject = gson.fromJson(request, RequestObject.class);  
+    JsonArray array = JsonParser.parseString(requestObject.getPayload()).getAsJsonArray();  
+    ReplyObject reply=null; //To initialize  
+  
+    String objectId = requestObject.getObjectId();  
+  
+  
+  
+    if(requestObject.getOperationName().split("_")[0].equals(GAME_PREFIX)) {  
+        switch (requestObject.getOperationName()) {  
+            case GAME_GET_TURN_NUMBER -> {  
+                int uid = game.getTurnNumber();  
+                reply = new ReplyObject(HttpServletResponse.SC_OK, gson.toJson(uid));  
+            }  
+            case GAME_GET_PLAYER_IN_TURN -> {  
+                Player uid = game.getPlayerInTurn();  
+                reply = new ReplyObject(HttpServletResponse.SC_OK, gson.toJson(uid));  
+            }  
+            case GAME_GET_WINNER -> {  
+                Player uid = game.getWinner();  
+                reply = new ReplyObject(HttpServletResponse.SC_OK, gson.toJson(uid));  
+            }  
+            case GAME_GET_DECK_SIZE -> {  
+                Player player = gson.fromJson(array.get(0), Player.class);  
+                int uid = game.getDeckSize(player);  
+                reply = new ReplyObject(HttpServletResponse.SC_OK, gson.toJson(uid));  
+            }  
+  
+            case GAME_GET_FIELD_SIZE -> {  
+                Player player = gson.fromJson(array.get(0), Player.class);  
+                int uid = game.getFieldSize(player);  
+                reply = new ReplyObject(HttpServletResponse.SC_OK, gson.toJson(uid));  
+            }  
+  
+            case GAME_GET_HAND_SIZE -> {  
+                Player player = gson.fromJson(array.get(0), Player.class);  
+                int uid = game.getHandSize(player);  
+                reply = new ReplyObject(HttpServletResponse.SC_OK, gson.toJson(uid));  
+            }  
+  
+            case GAME_END_OF_TURN -> {  
+                game.endTurn();  
+                reply = new ReplyObject(HttpServletResponse.SC_OK, gson.toJson(null));  
+            }
+///
+///
+//..
+```
+
+
+## TDD on Distributed Systems
+When Developing a Distributed System using TDD we heavily use Spy
+
+To helo devolop the ClientProxy, we use a RequestorSpy.
+Further More in the Invokers, we can have FakeRequestHandlers, such as databases, cards, heros and so on.
+![[4.7 using Henrik Broker Library-1.png]]
+4 Meszaros, Gerard, “xUnit Test Patterns - Refactoring Test Code”, Addison Wesley, 2007.
+5 https://bintray.com/henrikbaerbak/maven/broker 
+6 https://www.rabbitmq.com/
