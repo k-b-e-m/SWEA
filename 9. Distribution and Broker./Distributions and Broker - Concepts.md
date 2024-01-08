@@ -197,3 +197,33 @@ Further More in the Invokers, we can have FakeRequestHandlers, such as databases
 4 Meszaros, Gerard, “xUnit Test Patterns - Refactoring Test Code”, Addison Wesley, 2007.
 5 https://bintray.com/henrikbaerbak/maven/broker 
 6 https://www.rabbitmq.com/
+# Broker part two
+## Gamelobby
+![[Game lobby dynamics-1.png]]
+
+We here have 3 different roles.
+
+### Gamelobby
+- Singleton object, representing the entry point for creating and joining games.
+### FutureGame
+- A Future, allowing the state of the game (Available or not) to be queried, and once both players have joined, return the game object itself. 
+- Provides an accessor method getJoinToken() to retrieve the join token that the second user must provide.
+### Game
+- The actual game domain role.
+
+
+## Dynamics of broker II
+![[Dynamicsc of broker 2-1.png]]
+### Invoker
+- Performs demarshalling of incoming byte array. 
+- Determines servant object, methods, and arguments (some of which may be object IDs in which case the servant reference must be fetched from the Name Service), and calls the given method in the identified Servant object. 
+- Performs marshalling of the return value from the Servant ob- ject into a reply byte array, or in case of server side exceptions or other failure conditions, return error replies allowing the Requestor to throw appropriate exceptions. 
+- When servants create new objects, store their IDs in the Name Service and return their ID instead.
+### Requestor
+-  Performs marshalling of object identity, method name and ar- guments into a byte array. 
+- Invokes the ClientRequestHandler’s send() method. 
+- Demarshalls returned byte array into return value(s). If returned value is an object ID of a server created object, create a Client- Proxy with the given object ID and return that. 
+- Creates client side exceptions in case of failures detected at the server side or during network transmission.
+### Name Service
+-  A server side storage that maps objectId’s to objects 
+- Allows adding, fetching, and deleting entries in the storage

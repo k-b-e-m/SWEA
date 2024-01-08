@@ -33,7 +33,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "9. Distribution and Broker./implementationOfBrokerPensum.pdf"
+                "file": "9. Distribution and Broker./brokerPart2Pensum.pdf"
               }
             }
           }
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1955147758b909a0",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9. Distribution and Broker./implementationOfBrokerPensum.pdf",
+                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9. Distribution and Broker./implementationOfBrokerPensum.pdf",
+                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9. Distribution and Broker./implementationOfBrokerPensum.pdf"
+                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md"
               }
             }
           }
@@ -183,32 +184,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d40e6afa4ed72f93",
+  "active": "2f0951e0978a9e4b",
   "lastOpenFiles": [
+    "9. Distribution and Broker./brokerPart2Pensum.pdf",
+    "9. Distribution and Broker./Distributions and Broker - Keywords.md",
     "9. Distribution and Broker./Distributions and Broker - Concepts.md",
+    "Attachments/Dynamicsc of broker 2-1.png",
+    "Attachments/Game lobby dynamics-1.png",
     "9. Distribution and Broker./implementationOfBrokerPensum.pdf",
+    "9. Distribution and Broker./distributedBasicConceptsPensum.pdf",
+    "9. Distribution and Broker./hTTPPensum.pdf",
+    "9. Distribution and Broker./restPensum.pdf",
     "Attachments/4.7 using Henrik Broker Library-1.png",
     "Attachments/ServerRequestHandler code-1.png",
     "Attachments/Example of a requestor-1.png",
     "Attachments/Client proxy code-1.png",
     "9. Distribution and Broker./brokerPartOnePensum.pdf",
-    "9. Distribution and Broker./distributedBasicConceptsPensum.pdf",
     "Attachments/Architecture Pattern in short-1.png",
-    "9. Distribution and Broker./Distributions and Broker - Keywords.md",
     "Attachments/Broker server side dynamics-1.png",
     "Attachments/Broker Client side dynamics-1.png",
     "Attachments/Broker Structure-1.png",
-    "Attachments/Example of JSON-1.png",
-    "Attachments/Example of XML-1.png",
     "9. Distribution and Broker./basicConceptsOfDistributedSysPensum",
     "8. Clean Code and Refactoring/Clean Code - Concepts.md",
     "8. Clean Code and Refactoring/Clean Code - Keywords.md",
     "8. Clean Code and Refactoring/couplingAndCohesionPensum.pdf",
     "8. Clean Code and Refactoring/flexibilityAndMintainabilityPensum.pdf",
     "8. Clean Code and Refactoring/cleancodeHenrikPensum.pdf",
-    "8. Clean Code and Refactoring/cleanCodePensum.pdf.pdf",
-    "5. Design Patterns/observerPatternPensum.pdf",
-    "5. Design Patterns/statePatternPensum.pdf",
     "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
     "4. Test Doubles and unit-Integration testing/Concepts - Test Doubles and Unit and Integration tests.md",
     "7. Frameworks/Frameworks - Keywords.md",
