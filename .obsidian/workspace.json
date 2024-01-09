@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md",
+                "file": "3. Variability Management/3-1-2 process.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1955147758b909a0",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md",
+                "file": "3. Variability Management/3-1-2 process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md",
+                "file": "3. Variability Management/3-1-2 process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md"
+                "file": "3. Variability Management/3-1-2 process.md"
               }
             }
           }
@@ -184,10 +183,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "21f5d9abe68c3956",
+  "active": "49ffa0982b542622",
   "lastOpenFiles": [
-    "9. Distribution and Broker./restPensum.pdf",
     "9. Distribution and Broker./Distributions and Broker - Concepts.md",
+    "Resources for helping/allDesignPatterns.pdf",
+    "9. Distribution and Broker./passexam-Broker.pdf",
+    "8. Clean Code and Refactoring/passexam-CleanCode.pdf",
+    "7. Frameworks/passexam-Frameworks.pdf",
+    "6. Compositional Design/passexam-CompositionalDesign.pdf",
+    "5. Design Patterns/passexam-DesignPatterns.pdf",
+    "4. Test Doubles and unit-Integration testing/passexam-TestDoublesAndUnitIntegrationtesting.pdf",
+    "3. Variability Management/passexam-VariabilityManagement.pdf",
+    "2. Systematic BlackBox Testing/passtheExam-SystematicBlack-boxTesting.pdf",
+    "1. TDD/passexam - TDD.pdf",
     "9. Distribution and Broker./Distributions and Broker - Keywords.md",
     "8. Clean Code and Refactoring/Clean Code - Keywords.md",
     "8. Clean Code and Refactoring/Clean Code - Concepts.md",
@@ -202,25 +210,16 @@
     "3. Variability Management/Keywords - Variability management.md",
     "2. Systematic BlackBox Testing/Keywords - Blackbox Testing.md",
     "1. TDD/KeyWords  - TDD.md",
-    "9. Distribution and Broker./hTTPPensum.pdf",
     "Attachments/HTTP actions-1.png",
     "Attachments/HTTP reply-1.png",
     "Attachments/A HTTP request-1.png",
-    "9. Distribution and Broker./brokerPart2Pensum.pdf",
     "Attachments/Dynamicsc of broker 2-1.png",
     "Attachments/Game lobby dynamics-1.png",
-    "9. Distribution and Broker./implementationOfBrokerPensum.pdf",
-    "9. Distribution and Broker./distributedBasicConceptsPensum.pdf",
     "Attachments/4.7 using Henrik Broker Library-1.png",
     "Attachments/ServerRequestHandler code-1.png",
     "Attachments/Example of a requestor-1.png",
     "Attachments/Client proxy code-1.png",
-    "9. Distribution and Broker./brokerPartOnePensum.pdf",
     "Attachments/Architecture Pattern in short-1.png",
-    "9. Distribution and Broker./basicConceptsOfDistributedSysPensum",
-    "8. Clean Code and Refactoring/couplingAndCohesionPensum.pdf",
-    "8. Clean Code and Refactoring/flexibilityAndMintainabilityPensum.pdf",
-    "8. Clean Code and Refactoring/cleancodeHenrikPensum.pdf",
     "4. Test Doubles and unit-Integration testing/Concepts - Test Doubles and Unit and Integration tests.md",
     "7. Frameworks/Frameworm - Concepts.md",
     "README.md",
