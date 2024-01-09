@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "a289b7b4e0b066e2",
+        "id": "8e55f7f2710c29be",
         "type": "tabs",
-        "dimension": 40.01901140684411,
+        "dimension": 33.33333333333333,
         "children": [
           {
-            "id": "d40e6afa4ed72f93",
+            "id": "21f5d9abe68c3956",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,29 +23,29 @@
         ]
       },
       {
-        "id": "7916044f136d4e82",
+        "id": "cf91cc52246206e5",
         "type": "tabs",
-        "dimension": 40.01901140684411,
+        "dimension": 47.465145754119135,
         "children": [
           {
-            "id": "2f0951e0978a9e4b",
+            "id": "bb3b4287cecb167f",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "9. Distribution and Broker./hTTPPensum.pdf"
+                "file": "9. Distribution and Broker./restPensum.pdf"
               }
             }
           }
         ]
       },
       {
-        "id": "1e28b0ad728fcbef",
+        "id": "c6237c47d38af607",
         "type": "tabs",
-        "dimension": 19.961977186311785,
+        "dimension": 19.20152091254753,
         "children": [
           {
-            "id": "7e3d71a0660c9fbc",
+            "id": "12a946002db0b269",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9. Distribution and Broker./hTTPPensum.pdf",
+                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9. Distribution and Broker./hTTPPensum.pdf",
+                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9. Distribution and Broker./hTTPPensum.pdf"
+                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md"
               }
             }
           }
@@ -184,12 +184,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f0951e0978a9e4b",
+  "active": "21f5d9abe68c3956",
   "lastOpenFiles": [
+    "9. Distribution and Broker./restPensum.pdf",
     "9. Distribution and Broker./Distributions and Broker - Concepts.md",
+    "9. Distribution and Broker./Distributions and Broker - Keywords.md",
+    "8. Clean Code and Refactoring/Clean Code - Keywords.md",
+    "8. Clean Code and Refactoring/Clean Code - Concepts.md",
+    "7. Frameworks/Frameworks - Keywords.md",
+    "6. Compositional Design/Compositional Designs - Keywords.md",
+    "6. Compositional Design/Compositional design - Concepts.md",
+    "5. Design Patterns/Design Patterns - Keywords.md",
+    "5. Design Patterns/Design Patterns - Concepts.md",
+    "3. Variability Management/Concepts - Variability management.md",
+    "1. TDD/Concepts - TDD.md",
+    "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
+    "3. Variability Management/Keywords - Variability management.md",
+    "2. Systematic BlackBox Testing/Keywords - Blackbox Testing.md",
+    "1. TDD/KeyWords  - TDD.md",
     "9. Distribution and Broker./hTTPPensum.pdf",
     "Attachments/HTTP actions-1.png",
-    "9. Distribution and Broker./Distributions and Broker - Keywords.md",
     "Attachments/HTTP reply-1.png",
     "Attachments/A HTTP request-1.png",
     "9. Distribution and Broker./brokerPart2Pensum.pdf",
@@ -197,7 +211,6 @@
     "Attachments/Game lobby dynamics-1.png",
     "9. Distribution and Broker./implementationOfBrokerPensum.pdf",
     "9. Distribution and Broker./distributedBasicConceptsPensum.pdf",
-    "9. Distribution and Broker./restPensum.pdf",
     "Attachments/4.7 using Henrik Broker Library-1.png",
     "Attachments/ServerRequestHandler code-1.png",
     "Attachments/Example of a requestor-1.png",
@@ -205,27 +218,14 @@
     "9. Distribution and Broker./brokerPartOnePensum.pdf",
     "Attachments/Architecture Pattern in short-1.png",
     "9. Distribution and Broker./basicConceptsOfDistributedSysPensum",
-    "8. Clean Code and Refactoring/Clean Code - Concepts.md",
-    "8. Clean Code and Refactoring/Clean Code - Keywords.md",
     "8. Clean Code and Refactoring/couplingAndCohesionPensum.pdf",
     "8. Clean Code and Refactoring/flexibilityAndMintainabilityPensum.pdf",
     "8. Clean Code and Refactoring/cleancodeHenrikPensum.pdf",
-    "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
     "4. Test Doubles and unit-Integration testing/Concepts - Test Doubles and Unit and Integration tests.md",
-    "7. Frameworks/Frameworks - Keywords.md",
     "7. Frameworks/Frameworm - Concepts.md",
     "README.md",
-    "6. Compositional Design/Compositional design - Concepts.md",
-    "6. Compositional Design/Compositional Designs - Keywords.md",
-    "3. Variability Management/Keywords - Variability management.md",
-    "3. Variability Management/Concepts - Variability management.md",
     "3. Variability Management/3-1-2 process.md",
-    "5. Design Patterns/Design Patterns - Concepts.md",
-    "5. Design Patterns/Design Patterns - Keywords.md",
-    "1. TDD/KeyWords  - TDD.md",
-    "1. TDD/Concepts - TDD.md",
     "2. Systematic BlackBox Testing/Concepts - BlackBox Testing.md",
-    "2. Systematic BlackBox Testing/Keywords - Blackbox Testing.md",
     "Untitled.md"
   ]
 }

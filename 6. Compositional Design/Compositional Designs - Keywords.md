@@ -26,7 +26,7 @@ Example:
 **A convention detailing the sequence of interactions or actions expected by a set of roles**
 
 # Interface Segregation Principle
-**In the field of software engineering, the interface segregation principle (ISP) states that no code should be forced to depend on methods it does not use. ISP splits interfaces that are very large into smaller and more specic ones so that clients will only have to know about the methods that are of interest to them. Such shrunken interfaces are also called role interfaces.**
+**In the field of software engineering, the interface segregation principle (ISP) states that no code should be forced to depend on methods it does not use. ISP splits interfaces that are very large into smaller and more specfic ones so that clients will only have to know about the methods that are of interest to them. Such shrunken interfaces are also called role interfaces.**
 
 - **KEY POINT**
 Roles should not cover too many responsibilities but stay small and cohesive. Complex roles may then be defined in terms of simpler ones.

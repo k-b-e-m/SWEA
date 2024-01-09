@@ -20,3 +20,9 @@ Normally, a server runs on a specific computer and has a socket that is bound to
 
 # Uniform Resource Locators (URL)
 follows the URI schema and identifies both the resource’s location as well as the means for retrieving it. One such example resource is the ’contact’ homepage retrieved above at http://www.baerbak.com/contact.html. It states that the resource “contact.html” can be found on the web server “www.baerbak.com” and the means to retrieve it is the HTTP protocol.
+
+# CRUD
+Create
+Read
+Update
+Delete

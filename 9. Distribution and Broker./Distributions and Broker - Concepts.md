@@ -263,3 +263,50 @@ Status Codes for HTTP
 - 501 Not Implemented
 - 406 Not Acceptable
 
+# Rest (Representational State Transfer)
+Rest in an architectural style. 
+
+## Demise of Broker Architectures
+The Broker pattern were big around the 90's. However because a lot of programmer made high coupling between the server and client objects, it was seen as if the Broker pattern were broken, and not that the programmers did something wrong. - Opinion of Henrik Bærbak
+
+Another Issue with the Broker pattern is that it requirres the user to work with a stateless server. 
+GeeksForGeeks on stateless Servers:
+*As the name suggests, the stateless server has no state with regard to the user’s information. It means when the user access any web resource, the server does not keep a track of the user’s identity or actions performed on the page. So every time, the user has to prove the identity to gain access.
+
+*Let’s understand it better in contrast with the stateful server. Stateful servers store users’ state information in the form of sessions. It stores information like profile, preference, user’s action and gives personalized experience on next visit. The user does not need credentials every time during the valid session.*  
+
+*While stateless server treats each request as independent and demand user credentials. It requires no knowledge of previous interactions and stores no session information. So, there’s no difference between previous, current, and next requests.**
+
+Otherwise if the server shuts down, all data/actions would be lost.
+
+
+
+
+
+
+
+## REST
+There is five central principles of REST
+- The central concept is the resource which is defined as any information that can be named.
+- A resource is identified by a resource identifyer
+- You transfer a representation of data in a format mathcing one of the standard media types.
+- All interactions are stateless, i.e. every request must contain all the information necessary for processing it.
+- Interactions are between clients and servers, the essential difference between the two is that a client initiates communication by making a request, whereas a server listens to connections and responds to requests in order to supply access to its services.
+
+
+## Levels of Rest
+- Level 0: URI Tunneling
+	HTTP is used with a well supported IPC layer., like spark and unirest. 
+- Level 1: HTTP Verbs
+	Systems start obeying the HTTP requirements. You can use the HTTP verbs to modify and retrieve the content.
+- level 2: Hypermedia
+
+## Similarities between Broker and REST.
+- The Request-Reply protocol is central in both styles. In >Broker, we may have to code it directly in the Request Handlers if we use sockets, while the HTTP already implements it.
+- The need for Marshalling of data contents. In Broker, we again coded it in the Requestor/Invoker pair, while HTTP relies on media types.
+- The need for Name services. In Broker, we used the DNS systems to get the IP adress of the server, while we used an+ internal implementation for getting a servant object associated with a given object id. REST, on the other hand, encodes everything into the URI: both the server identity as well as the resource identity.
+- The Proxy is only an issue for object-oriented designs.ø
+##  Testability and TDD of REST designs
+Two options exists
+- Use Integration testing techniques: Spawn a REST server in the JUnit fixture, send HTTP requests as part of the test cases, and verify the return HTTP responses. Downside: Brittle tests that may be slow.
+- Use the Facade patter to encapsulate the REST paradigm using 3-1-2. Downside: There is more code to produce.
