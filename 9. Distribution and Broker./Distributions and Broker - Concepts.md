@@ -227,3 +227,39 @@ We here have 3 different roles.
 ### Name Service
 -  A server side storage that maps objectId’s to objects 
 - Allows adding, fetching, and deleting entries in the storage
+
+# HTTP
+Powers the World Wide Web.
+Standard for the Request-reply protocol for web browsers and web servers.
+
+Format of a request HTTP:
+- A request line, that specifies the HTTP verb, the wanted resource, and the version of the HTTP protocol.
+- Request header fields, which are key-value pairs defined by the HTTP protocol.
+- An empty Line
+- An Optional message body
+
+ ![[A HTTP request-1.png]]
+ An HTTP request
+
+![[HTTP reply-1.png]]
+HTTP reply
+
+Reply HTTP Format
+- A single status line which includes the status code and status message
+- Response header fields, again a set of well-defined key-value pairs on multiple lines
+- An empty line
+- The (optional) message body, that is the contents of the requested resource.
+
+
+![[HTTP actions-1.png]]
+
+**All verbs, except POST, are idempotent which means that executing them several times has the same effect as only executing it once. If you send one or ten identical PUT requests to the server, the outcome is the same, namely that the named resource is updated. The POST is different, as sending two POST requests will create two resources, etc.**
+
+Status Codes for HTTP
+
+- 200 OK
+- 201 Created
+- 404 Not Found
+- 501 Not Implemented
+- 406 Not Acceptable
+

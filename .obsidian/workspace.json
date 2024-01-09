@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "06db4ea099f03030",
+        "id": "a289b7b4e0b066e2",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 40.01901140684411,
         "children": [
           {
-            "id": "2f0951e0978a9e4b",
+            "id": "d40e6afa4ed72f93",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,15 +25,15 @@
       {
         "id": "7916044f136d4e82",
         "type": "tabs",
-        "dimension": 53.35868187579214,
+        "dimension": 40.01901140684411,
         "children": [
           {
-            "id": "d40e6afa4ed72f93",
+            "id": "2f0951e0978a9e4b",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "9. Distribution and Broker./brokerPart2Pensum.pdf"
+                "file": "9. Distribution and Broker./hTTPPensum.pdf"
               }
             }
           }
@@ -42,7 +42,7 @@
       {
         "id": "1e28b0ad728fcbef",
         "type": "tabs",
-        "dimension": 13.307984790874524,
+        "dimension": 19.961977186311785,
         "children": [
           {
             "id": "7e3d71a0660c9fbc",
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md",
+                "file": "9. Distribution and Broker./hTTPPensum.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md",
+                "file": "9. Distribution and Broker./hTTPPensum.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9. Distribution and Broker./Distributions and Broker - Concepts.md"
+                "file": "9. Distribution and Broker./hTTPPensum.pdf"
               }
             }
           }
@@ -186,14 +186,17 @@
   },
   "active": "2f0951e0978a9e4b",
   "lastOpenFiles": [
-    "9. Distribution and Broker./brokerPart2Pensum.pdf",
-    "9. Distribution and Broker./Distributions and Broker - Keywords.md",
     "9. Distribution and Broker./Distributions and Broker - Concepts.md",
+    "9. Distribution and Broker./hTTPPensum.pdf",
+    "Attachments/HTTP actions-1.png",
+    "9. Distribution and Broker./Distributions and Broker - Keywords.md",
+    "Attachments/HTTP reply-1.png",
+    "Attachments/A HTTP request-1.png",
+    "9. Distribution and Broker./brokerPart2Pensum.pdf",
     "Attachments/Dynamicsc of broker 2-1.png",
     "Attachments/Game lobby dynamics-1.png",
     "9. Distribution and Broker./implementationOfBrokerPensum.pdf",
     "9. Distribution and Broker./distributedBasicConceptsPensum.pdf",
-    "9. Distribution and Broker./hTTPPensum.pdf",
     "9. Distribution and Broker./restPensum.pdf",
     "Attachments/4.7 using Henrik Broker Library-1.png",
     "Attachments/ServerRequestHandler code-1.png",
@@ -201,9 +204,6 @@
     "Attachments/Client proxy code-1.png",
     "9. Distribution and Broker./brokerPartOnePensum.pdf",
     "Attachments/Architecture Pattern in short-1.png",
-    "Attachments/Broker server side dynamics-1.png",
-    "Attachments/Broker Client side dynamics-1.png",
-    "Attachments/Broker Structure-1.png",
     "9. Distribution and Broker./basicConceptsOfDistributedSysPensum",
     "8. Clean Code and Refactoring/Clean Code - Concepts.md",
     "8. Clean Code and Refactoring/Clean Code - Keywords.md",
