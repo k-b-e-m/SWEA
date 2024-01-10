@@ -368,3 +368,6 @@ A Model contains the application’s state and notifies all Views when state cha
 - Liabilities 
 	- unexpected/multiple updates: as the coupling is low it is difficult for views to infer the nature of model state changes which may lead to graphical flickering. 
 	- Design complexity is another concern if the development team is untrained.
+
+# How to introduce new design patterns
+![[Introducing design patterns to code-1.png]]

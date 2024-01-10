@@ -37,9 +37,11 @@ Keep in mind that in this case there are no illegal ECs, however some methods mi
 There are three types of conditions
 1. **Range**
 		If a condition is specified as  a range of values, select one valid EC that covers the allowed range, and two invalid ECs, one above and one below the end of the range.
-2. **Set**
+		![[Ranges-1.png]]
+1. **Set**
 		If a condition is specified as a set of values, then define tan EC for each value in the set and one EC containing all values outside the set.
-3. **Boolean**
+		![[Sets-1.png]]
+1. **Boolean**
 		If a condition is specified as a "must be" condition then define one EC for the condition being true and one EC for the condition being false.
 
 

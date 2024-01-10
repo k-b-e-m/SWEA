@@ -88,6 +88,10 @@ When implementing simple things like accessor and mutator methods, Just implemen
 
 In test the complexity should be kept low. Meaning that the most advanced mechanics of a test should be iterating over and array. Even in this case it is preferred to do it with other means if possible.
 
+
+## Do Over
+**What do you do when you are feeling lost? Throw away the code and start over.**
+
 ## Break
 **What do you do when you feel tired and stuck? Take a break**
 
@@ -100,8 +104,12 @@ Programming is hard and demanding. A tired programmer is a bad programmer. Take 
 
 
 # The Test-Driven Process
-## Clean code that works
+## Systematic Programming Technique
+Focus on Continued speed and reliability.
+## Mantra : Clean code that works
 Since each iteration ends with refactoring, this ensures that every little bit of code has been looked at and at least tried to be made clean code, that still works as it should.
+
+
 ## Fast Feedback gives programmer confidence
 Because the programmer works in a rhythm that constantly shows that each of the small steps are correct. This gives the programmer confidence and ensures that they can keep focus on each small step. Moreover the tests ensures that the defects in the code can be spotted quickly and therefore is easy to change in the code. This ensures speed of the programming process
 
@@ -120,3 +128,12 @@ The typical drivercode that arises from the start of a programs lifecycle, that 
 ## Structured Programming Process
 
 The principles of the TDD process enables the programmer to use a set of options when writing the code. For an Example the "Fake it", "Triangulation" and so on. This ensures that the programmer can discuss choose and apply these options and doesn't have to go with the "gut feeling" of how to proceed.
+# Values of TDD
+## Keep Focus
+- Make on thing only, at a time!
+## Take small steps
+- Makes it easy to backtrack.
+## Speed
+- Being faster to produce good code, that fits the requirements, in the long run.
+## Simplicity
+- Make the simplest code that solves the problem.

@@ -1,5 +1,7 @@
 # Principles for flexible design
  **From the design patterns book**
+## 3. Consider what should be variable in your design ( or: Encapsulate the behaviour that varies.)
+**I identify some behaviour that is likely to change**
 ## 1. Program to an interface, not an implementation
 **I stated a well defined responsibility that covers this behaviour and expressed it in an interface**
 
@@ -59,8 +61,8 @@ When writing to a interface, one needs to make a lot of boilerplate code, to be 
 
 
 
-## 3. Consider what should be variable in your design ( or: Encapsulate the behaviour that varies.)
-**I identify some behaviour that is likely to change**
 
+
+![[Example of 3-1-2-1.png]]
 
 

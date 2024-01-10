@@ -16,3 +16,9 @@ For example the "AlternatingRateStrategy" in the pay station is depended on a ja
 
 # Integration testing
 Tests that test that interaction between software units is correct.
+
+# Statement Coverage
+**Requires every statement in the program to be executed at least once**
+
+# Decision coverage
+**Requires each decision has a true and false outcome at least once.**

@@ -6,7 +6,7 @@
       {
         "id": "8e55f7f2710c29be",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 31.732070365358595,
         "children": [
           {
             "id": "21f5d9abe68c3956",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Variability Management/3-1-2 process.md",
+                "file": "1. TDD/Concepts - TDD.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,17 +23,19 @@
         ]
       },
       {
-        "id": "cf91cc52246206e5",
+        "id": "a03d3126a7823306",
         "type": "tabs",
-        "dimension": 47.465145754119135,
+        "dimension": 47.158322056833555,
         "children": [
           {
-            "id": "bb3b4287cecb167f",
+            "id": "91ed610c15ae2f2d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "9. Distribution and Broker./restPensum.pdf"
+                "file": "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -42,7 +44,7 @@
       {
         "id": "c6237c47d38af607",
         "type": "tabs",
-        "dimension": 19.20152091254753,
+        "dimension": 21.10960757780785,
         "children": [
           {
             "id": "12a946002db0b269",
@@ -85,8 +87,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "role interface",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -122,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Variability Management/3-1-2 process.md",
+                "file": "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Variability Management/3-1-2 process.md",
+                "file": "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Variability Management/3-1-2 process.md"
+                "file": "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md"
               }
             }
           }
@@ -183,8 +185,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "49ffa0982b542622",
+  "active": "91ed610c15ae2f2d",
   "lastOpenFiles": [
+    "2. Systematic BlackBox Testing/Keywords - Blackbox Testing.md",
+    "2. Systematic BlackBox Testing/Concepts - BlackBox Testing.md",
+    "6. Compositional Design/Compositional Designs - Keywords.md",
+    "6. Compositional Design/Compositional design - Concepts.md",
+    "5. Design Patterns/Design Patterns - Keywords.md",
+    "8. Clean Code and Refactoring/Clean Code - Concepts.md",
+    "8. Clean Code and Refactoring/Clean Code - Keywords.md",
+    "5. Design Patterns/Design Patterns - Concepts.md",
+    "Attachments/Introducing design patterns to code-1.png",
+    "3. Variability Management/3-1-2 process.md",
+    "Attachments/Example of 3-1-2-1.png",
+    "1. TDD/Slides/Pensum til TDD - chapter 5.pdf",
+    "1. TDD/Concepts - TDD.md",
+    "1. TDD/Slides",
+    "Resources for helping/tddCheatSheet.pdf",
+    "Attachments/Ranges-1.png",
+    "Attachments/Sets-1.png",
+    "Resources for helping/cleanCodeTemplate.pdf",
     "9. Distribution and Broker./Distributions and Broker - Concepts.md",
     "Resources for helping/allDesignPatterns.pdf",
     "9. Distribution and Broker./passexam-Broker.pdf",
@@ -192,23 +212,11 @@
     "7. Frameworks/passexam-Frameworks.pdf",
     "6. Compositional Design/passexam-CompositionalDesign.pdf",
     "5. Design Patterns/passexam-DesignPatterns.pdf",
-    "4. Test Doubles and unit-Integration testing/passexam-TestDoublesAndUnitIntegrationtesting.pdf",
-    "3. Variability Management/passexam-VariabilityManagement.pdf",
-    "2. Systematic BlackBox Testing/passtheExam-SystematicBlack-boxTesting.pdf",
-    "1. TDD/passexam - TDD.pdf",
     "9. Distribution and Broker./Distributions and Broker - Keywords.md",
-    "8. Clean Code and Refactoring/Clean Code - Keywords.md",
-    "8. Clean Code and Refactoring/Clean Code - Concepts.md",
     "7. Frameworks/Frameworks - Keywords.md",
-    "6. Compositional Design/Compositional Designs - Keywords.md",
-    "6. Compositional Design/Compositional design - Concepts.md",
-    "5. Design Patterns/Design Patterns - Keywords.md",
-    "5. Design Patterns/Design Patterns - Concepts.md",
     "3. Variability Management/Concepts - Variability management.md",
-    "1. TDD/Concepts - TDD.md",
     "4. Test Doubles and unit-Integration testing/Keywords - Test Doubles and unit and integration testing.md",
     "3. Variability Management/Keywords - Variability management.md",
-    "2. Systematic BlackBox Testing/Keywords - Blackbox Testing.md",
     "1. TDD/KeyWords  - TDD.md",
     "Attachments/HTTP actions-1.png",
     "Attachments/HTTP reply-1.png",
@@ -216,15 +224,9 @@
     "Attachments/Dynamicsc of broker 2-1.png",
     "Attachments/Game lobby dynamics-1.png",
     "Attachments/4.7 using Henrik Broker Library-1.png",
-    "Attachments/ServerRequestHandler code-1.png",
-    "Attachments/Example of a requestor-1.png",
-    "Attachments/Client proxy code-1.png",
-    "Attachments/Architecture Pattern in short-1.png",
     "4. Test Doubles and unit-Integration testing/Concepts - Test Doubles and Unit and Integration tests.md",
     "7. Frameworks/Frameworm - Concepts.md",
     "README.md",
-    "3. Variability Management/3-1-2 process.md",
-    "2. Systematic BlackBox Testing/Concepts - BlackBox Testing.md",
     "Untitled.md"
   ]
 }
